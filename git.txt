@@ -1,0 +1,11 @@
+git init 
+
+
+git remote add origin https://github.com/aguve/CuroFullStack11.git
+
+
+============
+
+git add .
+git commit -m "subida"
+git push origin master
