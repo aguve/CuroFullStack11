@@ -9,3 +9,44 @@ git remote add origin https://github.com/aguve/CuroFullStack11.git
 git add .
 git commit -m "subida"
 git push origin master
+
+///////
+PS C:\Users\UsuarioM\source> git init
+Initialized empty Git repository in C:/Users/UsuarioM/source/.git/
+PS C:\Users\UsuarioM\source> git remote add origin https://github.com/aguve/CuroFullStack11.git
+PS C:\Users\UsuarioM\source> git add .
+PS C:\Users\UsuarioM\source> git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'UsuarioM@XTALENTO349.(none)')
+PS C:\Users\UsuarioM\source> git config --global user.email "aguveone@gmail.com"
+PS C:\Users\UsuarioM\source> git config --global user.name "aguve"
+PS C:\Users\UsuarioM\source> git commit -m "first commit"
+[master (root-commit) 03b6d06] first commit
+ 5 files changed, 190 insertions(+)
+ create mode 100644 ejer1/platosemana.html
+ create mode 100644 git.txt
+ create mode 100644 html1/index.html
+ create mode 100644 html2/index.html
+ create mode 100644 html2/rescources/gd_logo.jpg
+PS C:\Users\UsuarioM\source> git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 26.04 KiB | 13.02 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/aguve/CuroFullStack11.git
+ * [new branch]      master -> master
+PS C:\Users\UsuarioM\source>
