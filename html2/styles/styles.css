@@ -1,0 +1,26 @@
+ h1,
+ h2 {
+   text-align: center;
+   color: red;
+ }
+
+ p {
+   color: green;
+ }
+
+ body {
+   background-color: black;
+ }
+
+ #sub-title {
+  color: rgb(184, 55, 98);
+ }
+
+ .gelb {
+  color: yellow;
+ }
+
+ .gelblue{
+  color: greenyellow;
+  font-style: oblique;
+ }

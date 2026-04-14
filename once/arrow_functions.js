@@ -45,3 +45,25 @@ const calculateArea = param => {
 }
 
 calculateArea(5);
+
+// de Celcius a Fahranheit
+const cel2fahr = param => {
+  const result = (param * (9/5)) + 32;
+  console.log(result);
+}
+
+cel2fahr(30);
+
+
+// factorial de num
+function factorialRecursivo(num){
+  if (num < 0) {
+    return 1;
+  } else if (num < 2) {
+    return 1;
+  } else {
+    return num * factorialRecursivo(num - 1);
+}
+}
+let resultadoR = factorialRecursivo(7);
+console.log(resultadoR);
